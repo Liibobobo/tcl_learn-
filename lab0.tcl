@@ -10,7 +10,7 @@ set var2 [expr $var1 * 2]
 puts "The Value of Var2 is $var2"
 
 # Repeat step 7 using Curly braces instead of double quotes (curly braces, prevent any substitution)
-puts "The Value of Var2_v2 is $var2"
+puts {The Value of Var2_v2 is $var2}
 
 # Repeat step 7 using Backslash before variable substitution sign
-puts "The Value of Var2_v3 is \$var3"
+puts "The Value of Var2_v3 is \$var2"
